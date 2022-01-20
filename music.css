@@ -1,0 +1,18 @@
+.level{
+  width: 80%;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #e1e6ec;
+  box-shadow: 5px 5px 11px #a2b1c6, -5px -5px -11px #fff;
+  border-radius: 25px;
+}
+
+.level::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #a2b1c6;
+  box-shadow: 2px 2px 5px #a2b1c6, -2px -2px -5px #fff;
+  width: 15px;
+  height: 25px;
+  border-radius: 25px;
+}
